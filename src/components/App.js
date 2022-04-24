@@ -9,7 +9,7 @@ function App() {
 const numero = 0;
   async function buscaRepositorio() {
 
-    const response = await api.get(`repos/${pesquisar}`)
+    const response = await api.get(`/repos/${pesquisar}`)
       .catch(()=>{ 
         alert("Dados Não encontrados!!") 
       });
