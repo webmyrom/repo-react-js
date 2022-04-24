@@ -1,0 +1,12 @@
+.RepositorioItem{
+    height: 80px;
+    width: 300px;
+    margin-top: 15px;
+    background-color: bisque;
+    display: flex;
+    padding: 10px;
+}
+img {
+    height: 100%;
+    border-radius: 50%;
+}

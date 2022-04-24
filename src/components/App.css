@@ -1,0 +1,44 @@
+.App {
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    margin-left: 20px;
+    height: 10px;
+    padding: 20px;
+}
+button {
+height: 25px;
+background-color: burlywood;
+border: 1px;
+border-radius: 40px;
+}
+button:active {
+    transform: scale(2.5);
+    
+}
+button:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.Pesquisar {
+    margin-top: 30px;
+}
+footer {
+    background-color: rgb(6, 7, 7);
+    color: aliceblue;
+    margin-bottom: 100%;
+}
+@media only screen and (max-width: 600px) {
+    body {
+    background-color: lightblue;
+    }
+    .App {
+        
+    }
+}
