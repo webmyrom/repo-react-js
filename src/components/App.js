@@ -6,10 +6,9 @@ import api from '../services/api';
 function App() {
   const [pesquisar, setPesquisar] = useState('');
   const [repoData, setrepoData] = useState(null);
-const numero = 0;
   async function buscaRepositorio() {
 
-    const response = await api.get(`repos/${pesquisar}`)
+    const response = await api.get(`/repos/${pesquisar}`)
       .catch(()=>{ 
         alert("Dados Não encontrados!!") 
       });

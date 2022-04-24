@@ -2,7 +2,11 @@
     height: 800px;
     width: 900px;
     text-align: center;
+<<<<<<< HEAD
     background-color: rgb(193, 247, 229);
+=======
+    background-color: aquamarine;
+>>>>>>> d11bd125d64bb9acc992115245340a759f382fe6
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,6 +51,6 @@ footer {
 }
 /* @media only screen and (max-width: 600px) {
     body {
-    background-color: lightblue;
+    background-color: rgb(28, 41, 46);
     }
 } */
